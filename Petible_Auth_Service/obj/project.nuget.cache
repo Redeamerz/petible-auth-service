@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "VmnVyRXZeSDOMHKGvfBm5sit3xDlWQsOqOC0Asesw0hc5J+6fOgs81Er1LkAIF0aFethAn1/5m5Zm2hYOXFnpg==",
+  "dgSpecHash": "GV91AvWi+IfnlI5jwGGyry9dyroGiM+BiCbSvzZ3q+elBfg9ykLBl1F7ljcYRKwI0VGFOGL9ZLbh1rda1dN5uw==",
   "success": true,
   "projectFilePath": "D:\\Petible-auth\\petible-auth-service\\Petible_Auth_Service\\Petible_Auth_Service.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Sid\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.5.0\\microsoft.identitymodel.jsonwebtokens.6.5.0.nupkg.sha512",
+    "C:\\Users\\Sid\\.nuget\\packages\\microsoft.identitymodel.logging\\6.5.0\\microsoft.identitymodel.logging.6.5.0.nupkg.sha512",
+    "C:\\Users\\Sid\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.5.0\\microsoft.identitymodel.tokens.6.5.0.nupkg.sha512",
+    "C:\\Users\\Sid\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Sid\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.5.0\\system.identitymodel.tokens.jwt.6.5.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
