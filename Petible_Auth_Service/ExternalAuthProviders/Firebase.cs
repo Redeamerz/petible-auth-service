@@ -20,7 +20,7 @@ namespace Petible_Auth_Service.ExternalAuthProviders
         {
             FirebaseApp.Create(new AppOptions()
             {
-                Credential = GoogleCredential.GetApplicationDefault(),
+                Credential = GoogleCredential.FromFile("oathCredentials.json"),
                 ServiceAccountId = "petible@oathtest-265121.iam.gserviceaccount.com",
             });
         }
