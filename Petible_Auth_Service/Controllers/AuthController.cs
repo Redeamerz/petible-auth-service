@@ -9,6 +9,7 @@ using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Petible_Auth_Service.Logic;
 using Petible_Auth_Service.Models;
+using Petible_Auth_Service.ExternalAuthProviders;
 
 namespace Petible_Auth_Service.Controllers
 {
@@ -16,26 +17,27 @@ namespace Petible_Auth_Service.Controllers
     [Route("[controller]")]
     public class AuthController : ControllerBase
     {
-       
-        public AuthController(ILogger<AuthController> logger)
+        [HttpGet]
+        public ActionResult<IEnumerable<string>> Get()
         {
-           
+            return new string[] { "value1", "value2" };
         }
 
-        public object TokenGen { get; private set; }
+       // public object TokenGen { get; private set; }
 
         [HttpPost]
         [AllowAnonymous]
         public IActionResult Post([FromBody] JsonElement data)
         {
+            Firebase fire = new Firebase();
             string json = System.Text.Json.JsonSerializer.Serialize(data);
             UserData user = JsonConvert.DeserializeObject<UserData>(json);
             IActionResult response = Unauthorized();
-            if (user.username == "test2" && user.password == "test2")
+            if(user.uid != null)
             {
-                string token = TokenGeneration.GenerateToken(user.username);
-                response = Ok(new { token = token });
-            }
+                string token = fire.GetJWTToken(user.uid);
+                response = Ok(new { token });
+            }              
             return response;
         }
     }
