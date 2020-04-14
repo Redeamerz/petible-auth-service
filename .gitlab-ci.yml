@@ -1,0 +1,24 @@
+stages:
+    - dotnet-build
+    - docker-build-push
+
+dotnet-build:
+    image: mcr.microsoft.com/dotnet/core/sdk:3.1
+    before_script:
+        - "dotnet restore ./Petible_Auth_Service"
+    script:
+        - "dotnet build ./Petible_Auth_Service/Petible_Auth_Service.sln"
+    stage: dotnet-build
+
+docker-build-push:
+    image: docker:latest
+    services:
+        - docker:dind
+    only:
+        - master
+    before_script:
+        - "docker login -u ${DOCKER_USERNAME} -p ${DOCKER_PASSWORD}"
+    script:
+        - "docker build --tag ${ORG_NAME}/${DOCKER_CONTAINER_NAME} Petible_Auth_Service"
+        - "docker push ${ORG_NAME}/${DOCKER_CONTAINER_NAME}"
+    stage: docker-build-push
