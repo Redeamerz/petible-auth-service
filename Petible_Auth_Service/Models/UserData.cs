@@ -8,10 +8,12 @@ namespace Petible_Auth_Service.Models
     public class UserData
     {
         public string uid;
+        public string role;
 
-        public UserData(string uid)
+        public UserData(string uid, string role)
         {
             this.uid = uid;
+            this.role = role;
         }
     }
 }
