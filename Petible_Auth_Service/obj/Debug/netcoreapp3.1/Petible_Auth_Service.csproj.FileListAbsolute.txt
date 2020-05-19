@@ -77,6 +77,3 @@ C:\Users\Redeamer\Desktop\petible-auth-service\Petible_Auth_Service\obj\Debug\ne
 C:\Users\Redeamer\Desktop\petible-auth-service\Petible_Auth_Service\obj\Debug\netcoreapp3.1\Petible_Auth_Service.csproj.CoreCompileInputs.cache
 C:\Users\Redeamer\Desktop\petible-auth-service\Petible_Auth_Service\obj\Debug\netcoreapp3.1\Petible_Auth_Service.MvcApplicationPartsAssemblyInfo.cache
 D:\Petible-auth\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\oathCredentials.json
-D:\Petible-auth\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\RestSharp.dll
-D:\Petible-auth\petible-auth-service\Petible_Auth_Service\obj\Debug\netcoreapp3.1\Petible_Auth_Service.csproj.CoreCompileInputs.cache
-D:\Petible-auth\petible-auth-service\Petible_Auth_Service\obj\Debug\netcoreapp3.1\Petible_Auth_Service.MvcApplicationPartsAssemblyInfo.cache

@@ -341,15 +341,6 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "RestSharp/106.11.4": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/RestSharp.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/RestSharp.dll": {}
-        }
-      },
       "System.Buffers/4.5.0": {
         "type": "package",
         "compile": {
@@ -1186,22 +1177,6 @@
         "packageIcon.png"
       ]
     },
-    "RestSharp/106.11.4": {
-      "sha512": "vx35q52cM3UQNOiN3UqSQ9U7I5UeoyzVmjsWKQxOxn6FVu+n01+SNwhxc/jvf92WPBmmwzTV4VYTeTg4KviJdA==",
-      "type": "package",
-      "path": "restsharp/106.11.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net452/RestSharp.dll",
-        "lib/net452/RestSharp.xml",
-        "lib/netstandard2.0/RestSharp.dll",
-        "lib/netstandard2.0/RestSharp.xml",
-        "restsharp.106.11.4.nupkg.sha512",
-        "restsharp.nuspec",
-        "restsharp.png"
-      ]
-    },
     "System.Buffers/4.5.0": {
       "sha512": "pL2ChpaRRWI/p4LXyy4RgeWlYF2sgfj/pnVMvBqwNFr5cXg7CXNnWZWxrOONLg8VGdFB8oB+EG2Qw4MLgTOe+A==",
       "type": "package",
@@ -1521,7 +1496,6 @@
       "Microsoft.AspNetCore.Cors >= 2.2.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.8",
       "Newtonsoft.Json >= 12.0.3",
-      "RestSharp >= 106.11.4",
       "System.IdentityModel.Tokens.Jwt >= 6.5.1"
     ]
   },
@@ -1588,10 +1562,6 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.3, )"
-          },
-          "RestSharp": {
-            "target": "Package",
-            "version": "[106.11.4, )"
           },
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",
