@@ -4,7 +4,7 @@
   "success": true,
   "projectFilePath": "D:\\Petible-auth\\petible-auth-service\\Petible_Auth_Service\\Petible_Auth_Service.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Sid\\.nuget\\packages\\firebaseadmin\\1.12.0\\firebaseadmin.1.12.0.nupkg.sha512",
+    "C:\\Users\\Sid\\.nuget\\packages\\firebaseadmin\\1.10.0\\firebaseadmin.1.10.0.nupkg.sha512",
     "C:\\Users\\Sid\\.nuget\\packages\\firesharp\\2.0.4\\firesharp.2.0.4.nupkg.sha512",
     "C:\\Users\\Sid\\.nuget\\packages\\google.api.gax\\2.7.0\\google.api.gax.2.7.0.nupkg.sha512",
     "C:\\Users\\Sid\\.nuget\\packages\\google.api.gax.rest\\2.7.0\\google.api.gax.rest.2.7.0.nupkg.sha512",

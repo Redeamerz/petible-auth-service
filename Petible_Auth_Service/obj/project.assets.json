@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "FirebaseAdmin/1.12.0": {
+      "FirebaseAdmin/1.10.0": {
         "type": "package",
         "dependencies": {
           "Google.Api.Gax": "2.7.0",
@@ -149,7 +149,7 @@
           "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll": {}
         }
       },
-      "Microsoft.IdentityModel.Logging/6.5.1": {
+      "Microsoft.IdentityModel.Logging/6.5.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll": {}
@@ -158,11 +158,11 @@
           "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll": {}
         }
       },
-      "Microsoft.IdentityModel.Tokens/6.5.1": {
+      "Microsoft.IdentityModel.Tokens/6.5.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.5.0",
-          "Microsoft.IdentityModel.Logging": "6.5.1",
+          "Microsoft.IdentityModel.Logging": "6.5.0",
           "System.Security.Cryptography.Cng": "4.5.0"
         },
         "compile": {
@@ -215,8 +215,8 @@
       "System.IdentityModel.Tokens.Jwt/6.5.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.IdentityModel.JsonWebTokens": "6.5.1",
-          "Microsoft.IdentityModel.Tokens": "6.5.1"
+          "Microsoft.IdentityModel.JsonWebTokens": "6.5.0",
+          "Microsoft.IdentityModel.Tokens": "6.5.0"
         },
         "compile": {
           "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {}
@@ -252,14 +252,14 @@
     }
   },
   "libraries": {
-    "FirebaseAdmin/1.12.0": {
-      "sha512": "8ImrEBmQyNMpV9SblkZq5vJHiYUuvm8OmX/99GcYsigy2MIalHXZJDLZZj8mNwAWqpl1RLf1LbJHqEzktIkwwQ==",
+    "FirebaseAdmin/1.10.0": {
+      "sha512": "IwqQsv//CQs1haxAOMjlXa/oMg3u9nv2GRw8GUH64rUrWES8R01vAIw+xvGf8SK5BupZ+CYMyDpajHiKc4I1Kw==",
       "type": "package",
-      "path": "firebaseadmin/1.12.0",
+      "path": "firebaseadmin/1.10.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "firebaseadmin.1.12.0.nupkg.sha512",
+        "firebaseadmin.1.10.0.nupkg.sha512",
         "firebaseadmin.nuspec",
         "lib/net45/FirebaseAdmin.dll",
         "lib/net45/FirebaseAdmin.xml",
@@ -653,14 +653,14 @@
         "lib/net461/Microsoft.IdentityModel.JsonWebTokens.xml",
         "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll",
         "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.xml",
-        "microsoft.identitymodel.jsonwebtokens.6.5.1.nupkg.sha512",
+        "microsoft.identitymodel.jsonwebtokens.6.5.0.nupkg.sha512",
         "microsoft.identitymodel.jsonwebtokens.nuspec"
       ]
     },
-    "Microsoft.IdentityModel.Logging/6.5.1": {
-      "sha512": "iujlW4mgBKaib0gB3wbJLCCRhaNmxt504O5aGMdIH0JLIjCw+LbX+q3SFf3u0C29rYErvQQ9xeAtGywjvSGLxg==",
+    "Microsoft.IdentityModel.Logging/6.5.0": {
+      "sha512": "H1QRoz+tKrNcQfRWIREWrzWLAXXp2G8YuYndS3JNGJ05HIjYg9x04fbcfh/0zV7zLRDaNfJjpwLFQJ23L6S7oQ==",
       "type": "package",
-      "path": "microsoft.identitymodel.logging/6.5.1",
+      "path": "microsoft.identitymodel.logging/6.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -670,14 +670,14 @@
         "lib/net461/Microsoft.IdentityModel.Logging.xml",
         "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll",
         "lib/netstandard2.0/Microsoft.IdentityModel.Logging.xml",
-        "microsoft.identitymodel.logging.6.5.1.nupkg.sha512",
+        "microsoft.identitymodel.logging.6.5.0.nupkg.sha512",
         "microsoft.identitymodel.logging.nuspec"
       ]
     },
-    "Microsoft.IdentityModel.Tokens/6.5.1": {
-      "sha512": "+kKU5tbizQmXee6iYJwqxROInlohMYhKYbLa37BUnU/YBhCvPapi2iywE4bVgno2NOF78p7VBERd/s+gYM/9dA==",
+    "Microsoft.IdentityModel.Tokens/6.5.0": {
+      "sha512": "43mUg9N8dTn8Eb8bRd4Z7cBOwAgJRSV3vOs76V45HJhQutodXGTH2JhLW601LFCEEjy5gH2Ab89A2OVeWyErLQ==",
       "type": "package",
-      "path": "microsoft.identitymodel.tokens/6.5.1",
+      "path": "microsoft.identitymodel.tokens/6.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -687,7 +687,7 @@
         "lib/net461/Microsoft.IdentityModel.Tokens.xml",
         "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll",
         "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.xml",
-        "microsoft.identitymodel.tokens.6.5.1.nupkg.sha512",
+        "microsoft.identitymodel.tokens.6.5.0.nupkg.sha512",
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
@@ -887,7 +887,7 @@
         "lib/net461/System.IdentityModel.Tokens.Jwt.xml",
         "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll",
         "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.xml",
-        "system.identitymodel.tokens.jwt.6.5.1.nupkg.sha512",
+        "system.identitymodel.tokens.jwt.6.5.0.nupkg.sha512",
         "system.identitymodel.tokens.jwt.nuspec"
       ]
     },
@@ -982,7 +982,7 @@
       "FirebaseAdmin >= 1.12.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.8",
       "Newtonsoft.Json >= 12.0.3",
-      "System.IdentityModel.Tokens.Jwt >= 6.5.1"
+      "System.IdentityModel.Tokens.Jwt >= 6.5.0"
     ]
   },
   "packageFolders": {
@@ -1035,7 +1035,7 @@
           },
           "FirebaseAdmin": {
             "target": "Package",
-            "version": "[1.12.0, )"
+            "version": "[1.10.0, )"
           },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
@@ -1047,7 +1047,7 @@
           },
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",
-            "version": "[6.5.1, )"
+            "version": "[6.5.0, )"
           }
         },
         "imports": [
