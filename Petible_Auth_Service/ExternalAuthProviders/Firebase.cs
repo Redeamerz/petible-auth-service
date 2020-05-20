@@ -34,7 +34,7 @@ namespace Petible_Auth_Service.ExternalAuthProviders
             UserData user;
             using(var client = new HttpClient())
             {
-                var response = client.GetStringAsync(new Uri("http://localhost:5000/api/v1/user/0b1bb14f-945c-11ea-bab6-005056a73cc6")).Result;
+                var response = client.GetStringAsync(new Uri($"http://localhost:5000/api/v1/user/{uid}")).Result;
                 user = JsonConvert.DeserializeObject<UserData>(response);
             }
             var additionalClaims = new Dictionary<string, object>()
