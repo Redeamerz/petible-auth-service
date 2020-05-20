@@ -36,8 +36,6 @@ D:\Petible-auth\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.
 D:\Petible-auth\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\Google.Apis.Auth.dll
 D:\Petible-auth\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\Google.Apis.Core.dll
 D:\Petible-auth\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
-D:\Petible-auth\petible-auth-service\Petible_Auth_Service\obj\Debug\netcoreapp3.1\Petible_Auth_Service.csproj.CoreCompileInputs.cache
-D:\Petible-auth\petible-auth-service\Petible_Auth_Service\obj\Debug\netcoreapp3.1\Petible_Auth_Service.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Redeamer\Desktop\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Redeamer\Desktop\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Redeamer\Desktop\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\oathCredentials.json
