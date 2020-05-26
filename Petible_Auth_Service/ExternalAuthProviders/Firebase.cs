@@ -20,6 +20,7 @@ namespace Petible_Auth_Service.ExternalAuthProviders
     public class Firebase
     {
         private string customToken;
+        private FirebaseApp firebaseapp;
         public Firebase()
         {
             FirebaseApp.Create(new AppOptions()
@@ -31,17 +32,19 @@ namespace Petible_Auth_Service.ExternalAuthProviders
 
         public async void GenerateToken(string uid)
         {
+            //FirebaseApp instance = FirebaseApp.GetInstance("app");
             UserData user;
             using(var client = new HttpClient())
             {
-                var response = client.GetStringAsync(new Uri($"http://localhost:5000/api/v1/user/{uid}")).Result;
+                var response = client.GetStringAsync(new Uri($"http://localhost:5000/api/v1/user/" + uid)).Result;
                 user = JsonConvert.DeserializeObject<UserData>(response);
             }
             var additionalClaims = new Dictionary<string, object>()
             {
-                { user.role, true },
+                { "role", user.role },
             };
             customToken = await FirebaseAuth.DefaultInstance.CreateCustomTokenAsync(uid, additionalClaims);
+            FirebaseApp.DefaultInstance.Delete();
         }
 
         public string GetJWTToken(string uid)
@@ -49,7 +52,5 @@ namespace Petible_Auth_Service.ExternalAuthProviders
             GenerateToken(uid);
             return customToken;
         }
-
-       
     }
 }

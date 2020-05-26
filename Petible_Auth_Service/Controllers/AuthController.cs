@@ -17,6 +17,7 @@ namespace Petible_Auth_Service.Controllers
     [Route("[controller]")]
     public class AuthController : ControllerBase
     {
+        
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
@@ -26,7 +27,6 @@ namespace Petible_Auth_Service.Controllers
        // public object TokenGen { get; private set; }
 
         [HttpPost]
-        [AllowAnonymous]
         public IActionResult Post([FromBody] JsonElement data)
         {
             Firebase fire = new Firebase();
