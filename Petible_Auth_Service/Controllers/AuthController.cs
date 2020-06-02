@@ -27,21 +27,16 @@ namespace Petible_Auth_Service.Controllers
         // public object TokenGen { get; private set; }
 
         [HttpPost]
-        public IActionResult Post([FromBody] JsonElement data)
+        public IActionResult GetToken([FromBody] LoginData data)
         {
             Firebaseauthclass fire = new Firebaseauthclass();
-            string json = System.Text.Json.JsonSerializer.Serialize(data);
-            UserData user = JsonConvert.DeserializeObject<UserData>(json);
-            IActionResult response = Unauthorized();
-            if (user.email != null)
+            if (data.email == null)
             {
-                string token = fire.GetJWTToken(user);
-                response = Ok(new { token });
+                return BadRequest();
             }
-            return response;
+            string token = fire.GetJWTToken(data);
+            LoginInfo stuff = JsonConvert.DeserializeObject<LoginInfo>(token);
+            return Ok(stuff);
         }
-
-
-
     }
 }

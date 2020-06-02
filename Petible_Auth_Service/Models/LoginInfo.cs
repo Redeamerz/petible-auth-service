@@ -7,14 +7,14 @@ namespace Petible_Auth_Service.Models
 {
     public class LoginInfo
     {
-        public string kind;
-        public string localId;
-        public string email;
-        public string displayName;
-        public string idToken;
-        public bool regisered;
-        public string refreshToken;
-        public string expiresIn;
-        public string role;
+        public string kind { get; set; }
+        public string localId { get; set; }
+        public string email { get; set; }
+        public string displayName { get; set; }
+        public string idToken { get; set; }
+        public bool regisered { get; set; }
+        public string refreshToken { get; set; }
+        public string expiresIn { get; set; }
+        public string role { get; set; }
     }
 }

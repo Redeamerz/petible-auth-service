@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Petible-auth\\petible-auth-service\\Petible_Auth_Service\\Petible_Auth_Service.csproj": {}
+    "C:\\Users\\Redeamer\\Desktop\\petible-auth-service\\Petible_Auth_Service\\Petible_Auth_Service.csproj": {}
   },
   "projects": {
-    "D:\\Petible-auth\\petible-auth-service\\Petible_Auth_Service\\Petible_Auth_Service.csproj": {
+    "C:\\Users\\Redeamer\\Desktop\\petible-auth-service\\Petible_Auth_Service\\Petible_Auth_Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Petible-auth\\petible-auth-service\\Petible_Auth_Service\\Petible_Auth_Service.csproj",
+        "projectUniqueName": "C:\\Users\\Redeamer\\Desktop\\petible-auth-service\\Petible_Auth_Service\\Petible_Auth_Service.csproj",
         "projectName": "Petible_Auth_Service",
-        "projectPath": "D:\\Petible-auth\\petible-auth-service\\Petible_Auth_Service\\Petible_Auth_Service.csproj",
-        "packagesPath": "C:\\Users\\Sid\\.nuget\\packages\\",
-        "outputPath": "D:\\Petible-auth\\petible-auth-service\\Petible_Auth_Service\\obj\\",
+        "projectPath": "C:\\Users\\Redeamer\\Desktop\\petible-auth-service\\Petible_Auth_Service\\Petible_Auth_Service.csproj",
+        "packagesPath": "C:\\Users\\Redeamer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Redeamer\\Desktop\\petible-auth-service\\Petible_Auth_Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sid\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Redeamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -82,6 +80,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -90,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

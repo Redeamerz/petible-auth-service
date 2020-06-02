@@ -29,7 +29,7 @@ namespace Petible_Auth_Service.ExternalAuthProviders
         private FirebaseApp firebaseapp;
         HttpClient client = new HttpClient(); 
 
-        public async void GenerateToken(UserData data)
+        public async void GenerateToken(LoginData data)
         {
             
             var info = new MockLoginInfo
@@ -42,22 +42,22 @@ namespace Petible_Auth_Service.ExternalAuthProviders
 
             var content = new StringContent(json, Encoding.UTF8, "application/json");
             var token = client.PostAsync("https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyCUCz3zW6Q21Qf4tuKmCL9vYT6AlygCH1M", content).Result;
-            UserData user;
+            LoginData user;
             string result = await token.Content.ReadAsStringAsync();
             var customToken = JsonConvert.DeserializeObject<LoginInfo>(result);
-            using (var client = new HttpClient())
-            {
-                var response = client.GetStringAsync(new Uri($"https://localhost:5001/api/v1/user/" + customToken.localId)).Result;
-                user = JsonConvert.DeserializeObject<UserData>(response);
-            }
+			using (var client = new HttpClient())
+			{
+				var response = client.GetStringAsync(new Uri($"https://localhost:5001/api/v1/user/" + customToken.localId)).Result;
+				user = JsonConvert.DeserializeObject<LoginData>(response);
+			}
 
-            customToken.role = user.role;
-            jwt = JsonConvert.SerializeObject(customToken);  
+			customToken.role = user.role;
+			jwt = JsonConvert.SerializeObject(customToken);  
         }
 
        
 
-        public string GetJWTToken(UserData data)
+        public string GetJWTToken(LoginData data)
         {
             GenerateToken(data);
             return jwt;
