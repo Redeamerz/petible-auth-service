@@ -8,8 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="petible-4ec74-firebase-adminsdk-48vn4-17ef7a8ff2.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FirebaseAdmin" Version="1.10.0" />
-    <PackageReference Include="FireSharp" Version="2.0.4" />
+    <PackageReference Include="Google.Apis.IdentityToolkit.v3" Version="1.8.1.1750" />
+    <PackageReference Include="jose-jwt" Version="2.5.0" />
+    <PackageReference Include="JWT" Version="7.2.1" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.8" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.5.0" />

@@ -7,13 +7,15 @@ namespace Petible_Auth_Service.Models
 {
     public class UserData
     {
-        public string uid;
+        public string email;
+        public string password;
         public string role;
 
-        public UserData(string uid, string role)
+        public UserData(string email, string password, string role)
         {
-            this.uid = uid;
+            this.email = email;
             this.role = role;
+            this.password = password;
         }
     }
 }
