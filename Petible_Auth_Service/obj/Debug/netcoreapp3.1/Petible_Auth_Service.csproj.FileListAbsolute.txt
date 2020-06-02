@@ -22,6 +22,12 @@ D:\Petible-auth\petible-auth-service\Petible_Auth_Service\obj\Debug\netcoreapp3.
 D:\Petible-auth\petible-auth-service\Petible_Auth_Service\obj\Debug\netcoreapp3.1\Petible_Auth_Service.pdb
 D:\Petible-auth\petible-auth-service\Petible_Auth_Service\obj\Debug\netcoreapp3.1\Petible_Auth_Service.genruntimeconfig.cache
 D:\Petible-auth\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Petible-auth\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\FireSharp.dll
+D:\Petible-auth\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\Petible-auth\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\Microsoft.Threading.Tasks.Extensions.dll
+D:\Petible-auth\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\Microsoft.Threading.Tasks.dll
+D:\Petible-auth\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\System.Net.Http.Extensions.dll
+D:\Petible-auth\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\System.Net.Http.Primitives.dll
 D:\Petible-auth\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\FirebaseAdmin.dll
 D:\Petible-auth\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\Google.Api.Gax.dll
 D:\Petible-auth\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\Google.Api.Gax.Rest.dll
@@ -71,9 +77,5 @@ C:\Users\Redeamer\Desktop\petible-auth-service\Petible_Auth_Service\obj\Debug\ne
 C:\Users\Redeamer\Desktop\petible-auth-service\Petible_Auth_Service\obj\Debug\netcoreapp3.1\Petible_Auth_Service.csproj.CoreCompileInputs.cache
 C:\Users\Redeamer\Desktop\petible-auth-service\Petible_Auth_Service\obj\Debug\netcoreapp3.1\Petible_Auth_Service.MvcApplicationPartsAssemblyInfo.cache
 D:\Petible-auth\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\oathCredentials.json
-D:\Petible-auth\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\petible-oauth.json
-D:\Petible-auth\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\Google.Apis.IdentityToolkit.v3.dll
-D:\Petible-auth\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\jose-jwt.dll
-D:\Petible-auth\petible-auth-service\Petible_Auth_Service\bin\Debug\netcoreapp3.1\JWT.dll
 D:\Petible-auth\petible-auth-service\Petible_Auth_Service\obj\Debug\netcoreapp3.1\Petible_Auth_Service.csproj.CoreCompileInputs.cache
 D:\Petible-auth\petible-auth-service\Petible_Auth_Service\obj\Debug\netcoreapp3.1\Petible_Auth_Service.MvcApplicationPartsAssemblyInfo.cache

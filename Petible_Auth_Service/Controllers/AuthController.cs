@@ -24,23 +24,22 @@ namespace Petible_Auth_Service.Controllers
             return new string[] { "value1", "value2" };
         }
 
-        // public object TokenGen { get; private set; }
+       // public object TokenGen { get; private set; }
 
         [HttpPost]
         public IActionResult Post([FromBody] JsonElement data)
         {
-            Firebaseauthclass fire = new Firebaseauthclass();
+            Firebase fire = new Firebase();
             string json = System.Text.Json.JsonSerializer.Serialize(data);
             UserData user = JsonConvert.DeserializeObject<UserData>(json);
             IActionResult response = Unauthorized();
-            if (user.email != null)
+            if(user.uid != null)
             {
-                string token = fire.GetJWTToken(user);
+                string token = fire.GetJWTToken(user.uid);
                 response = Ok(new { token });
-            }
+            }              
             return response;
         }
-
 
 
     }
