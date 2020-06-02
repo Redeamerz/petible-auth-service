@@ -5,16 +5,14 @@ using System.Threading.Tasks;
 
 namespace Petible_Auth_Service.Models
 {
-    public class UserData
+    public class LoginData
     {
-        public string email;
+        public string uid;
         public string password;
-        public string role;
 
-        public UserData(string email, string password, string role)
+        public LoginData(string uid, string password)
         {
-            this.email = email;
-            this.role = role;
+            this.uid = uid;
             this.password = password;
         }
     }
