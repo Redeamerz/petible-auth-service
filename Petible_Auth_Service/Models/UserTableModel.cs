@@ -5,11 +5,10 @@ using System.Threading.Tasks;
 
 namespace Petible_Auth_Service.Models
 {
-    public class MockLoginInfo
+    public class UserTableModel
     {
-        public string email;
-        public string password;
-        public int role;
-        public bool returnSecureToken;
+        public string email { get; set; }
+        public int role { get; set; }
+        public string id { get; set; }
     }
 }
