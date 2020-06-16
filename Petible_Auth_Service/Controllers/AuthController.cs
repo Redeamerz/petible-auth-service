@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
-using Petible_Auth_Service.Logic;
 using Petible_Auth_Service.Models;
 using Petible_Auth_Service.ExternalAuthProviders;
 
@@ -23,8 +22,6 @@ namespace Petible_Auth_Service.Controllers
         {
             return new string[] { "value1", "value2" };
         }
-
-        // public object TokenGen { get; private set; }
 
         [HttpPost]
         public async Task<IActionResult> GetToken([FromBody] LoginData data)
