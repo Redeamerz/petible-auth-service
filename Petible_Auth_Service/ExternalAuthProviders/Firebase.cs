@@ -79,7 +79,7 @@ namespace Petible_Auth_Service.ExternalAuthProviders
         {
             using (var client = new HttpClient())
             {
-                var roleresponse = client.GetStringAsync(new Uri($"https://localhost:5001/api/v1/user/" + id)).Result;
+                var roleresponse = client.GetStringAsync(new Uri($"http://161.35.156.189/api/v1/user/" + id)).Result;
                 data = JsonConvert.DeserializeObject<LoginInfo>(roleresponse);
             }
             return data;
@@ -90,7 +90,7 @@ namespace Petible_Auth_Service.ExternalAuthProviders
             
             using (var content = new StringContent(JsonConvert.SerializeObject(model), System.Text.Encoding.UTF8, "application/json"))
             {
-                HttpResponseMessage result = client.PutAsync("https://localhost:5001/api/v1/user", content).Result;              
+                HttpResponseMessage result = client.PutAsync("http://161.35.156.189/api/v1/user", content).Result;              
             }
                   
         }
